@@ -29,3 +29,5 @@ RUN mkdir -p /usr/local/bin \
 
 WORKDIR /go/src/github.com/containous/traefik
 COPY . /go/src/github.com/containous/traefik
+
+RUN go build
